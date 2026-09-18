@@ -1,4 +1,4 @@
-const delettodo = require("../../../backend/models/todo.model.js");
+const delettodo = require("../../models/todo.model.js");
 
 const delet = async (req, res) => {
   try {

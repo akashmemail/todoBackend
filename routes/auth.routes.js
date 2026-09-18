@@ -13,7 +13,6 @@ const profileform = require("../controllers/auth/profile.controller.js");
 const maketodo = require("../controllers/todo/todo.controller.js");
 
 const todoedite = require("../controllers/todo/todoedite.controller.js");
-// const profile = require("../../backend/controllers/auth/profile.controller.js");
 
 const gettodo = require("../controllers/todo/todoget.controller.js");
 

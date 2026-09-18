@@ -1,4 +1,4 @@
-const gettodo = require("../../../backend/models/todo.model.js");
+const gettodo = require("../../models/todo.model.js");
 
 const get = async (req, res) => {
   try {
