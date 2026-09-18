@@ -1,5 +1,5 @@
 const loginform = require("../../models/user.model.js");
-const { comparepassword } = require("../../helper/bcrypt");
+const { comparepassword } = require("../../helper/bcrypt.js");
 const jwt = require("jsonwebtoken");
 const nodemeller = require("nodemailer");
 

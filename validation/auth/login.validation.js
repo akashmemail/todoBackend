@@ -2,7 +2,7 @@ const {
   emailRegex,
 
   passwordRegex,
-} = require("../regex.validation");
+} = require("../regex.validation.js");
 
 const validationlogin = ({ email, password }) => {
   if (!email) {

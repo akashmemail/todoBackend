@@ -2,7 +2,7 @@ const express = require("express");
 
 const rout = express.Router();
 
-const regform = require("../../backend/controllers/auth/registion.controller");
+const regform = require("../../backend/controllers/auth/registion.controller.js");
 
 const loginform = require("../../backend/controllers/auth/login.controller.js");
 
